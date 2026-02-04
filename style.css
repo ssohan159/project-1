@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+    
+}
+.logo img{
+    width: 139px;
+    height: 60px;
+}
+.nav-links{
+ 
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+
+    margin: 0 32px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+ 
+}
+button{
+    border: none;
+    width: 164px;
+    height: 44px;
+    background-color: #30B868;
+    border-radius: 4px;
+    
+
+}
+.btn-primary{
+    color: #b11919;
+    font-size: semibold;
+
+
+    
+}
+#hero-section{
+    width: 100%;
+    height: 674px;
+    background-image: url("B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.hero-content{
+    padding: 70px 120px 134px 120px;
+    text-align: center;
+    align-items: center;
+
+}
+.hero-content .early-access-badge{
+    width: 229px;
+    height: 36px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #30B868;
+    font-size: 16px;
+    margin-bottom: 24px;
+    
+
+}
+.hero-content .early-access-badge .dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background: var(--#30B868, rgba(70, 145, 101, 1));
+    display: inline-block;
+    margin-right: 8px;
+    
+}
+.hero-content.h1{
+    width: 770px;
+    height: 168px;
+    font-family: 'Inter';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    line-height: 84px;
+    opacity: 0.9;
+   
+    
+
+}
+.highlight{
+    color: #30B868;
+}
+.hero-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0;
+    margin: 24px auto 40px auto;
+
+}
+.hero-btns {
+    
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+
+}
+.btn-primary{
+    color: rgba(255, 255, 255, 1);
+font-family: Inter;
+font-style: normal;
+line-height: 19px;
+letter-spacing: 0%;
+
+}
+.btn-secondary{
+    width: 164px;
+    height: 44px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+}
+.problems{
+    padding: 0 120px 120px 120px;
+    text-align: center;
+}
+cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  color: #0a2a43;
+  padding: 40px 25px;
+  border-radius: 14px;
+  box-shadow: 0 0 0 1px #e6e6e6;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background: #ff5a5a;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin: 0 auto 25px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #6b7c8f;
+  line-height: 1.6;
+}
+
+.cards {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  display: flex;
+
+}
+
+.card {
+  background: #fff;
+  color: #0a2a43;
+  padding: 40px 25px;
+  border-radius: 14px;
+  box-shadow: 0 0 0 1px #e6e6e6;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  background: #ff5a5a;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin: 0 auto 25px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #6b7c8f;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+.footer{
+    width: 1600px;
+    height: 840px;
+    background-image: url("B13-A01-Knowledge-Vault/Sections/Second\ Brain\ Section.png");
+    background-size: cover;
+    background-position: center;
+}
+.early-access-badge{
+    width: 1600px;
+    height: 400px;
+    background-image: url("B13-A01-Knowledge-Vault/Sections/Early\ Access\ Section.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.footer-img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
